@@ -54,7 +54,7 @@ func (c *Client) ListLocationAreas(pageURL *string) (LocationAreasResp, error) {
 	return locationAreaResp, nil
 }
 
-// GetLocation -
+// GetLocation
 func (c *Client) GetLocation(locationName string) (LocationArea, error) {
 	url := baseURL + "/location-area/" + locationName
 
